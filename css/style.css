@@ -73,6 +73,7 @@ header{
 	font-size: 25px;
 	color: #ffffff;
 	float: left;
+	letter-spacing: 2px;
 }
 .menu{
 	overflow: hidden;
