@@ -50,7 +50,6 @@ src: local('Cubano Regular'), url('../icon/Cubano.woff') format('woff');
 .wrapper{
 	width: 70%;
 	margin: 0 auto;
-	/*border: 1px solid grey;*/
 }
 header{
 	overflow: hidden;
@@ -62,7 +61,6 @@ header{
 	overflow: hidden;
 	width: 17%;
 	float: left;
-	/*border: 1px solid white;*/
 }
 .logo a img{
 	float: left;
@@ -80,7 +78,6 @@ header{
 	width: 42%;
 	float: right;
 	margin-top: 2px;
-	/*border: 1px solid white;*/
 }
 .menu ul{
 	float: right;
@@ -110,7 +107,6 @@ header{
 	margin: 0 auto;
 	margin-top: 120px;
 	margin-bottom: 120px;
-	/*border: 1px solid white;*/
 }
 .b_content h3{
 	font-family: 'Brandon Grotesque Light';
@@ -130,17 +126,14 @@ header{
 	margin-bottom: 70px;
 }
 .b_content button{
-	width: 240px;
-	height: 64px;
 	background-color: transparent;
 	font-family: 'Brandon Grotesque Bold';
 	font-size: 23px;
 	text-transform: capitalize;
 	color: white;
 	border: 2px solid white;
+	padding: 14px 60px;
 	margin-left: 250px;
-
-	/*transform: translateY(-50%);*/
 	transition: 0.6s;
 }
 .b_content button:focus{
@@ -160,12 +153,10 @@ header{
 	overflow: hidden;
 	width: 65%;
 	margin: 0 auto;
-	/*border: 1px solid black;*/
 }
 .a_text{
 	width: 69%;
 	float: left;
-	/*border: 1px solid red;*/
 }
 .a_text h1{
 	font-family: 'Brandon Grotesque Light';
@@ -191,8 +182,6 @@ header{
 	width: 25%;
 	float: right;
 	margin-top: 22px;
-	/*margin-right: 10px;*/
-	/*border: 1px solid red;*/
 }
 .a_logo img{
 	width: 100%;
@@ -202,7 +191,6 @@ header{
 	width: 65%;
 	margin: 0 auto;
 	margin-top: 60px;
-	/*border: 1px solid black;*/
 }
 
 .a_logo1{
@@ -210,7 +198,6 @@ header{
 	float: left;
 	margin-top: 30px;
     margin-left: 25px;
-	/*border: 1px solid red;*/
 }
 .a_logo1 img{
 	width: 100%;
@@ -219,7 +206,6 @@ header{
 .a_text1{
 	width: 65%;
 	float: right;
-	/*border: 1px solid red;*/
 }
 .a_text1 h1{
 	font-family: 'Brandon Grotesque Light';
@@ -252,7 +238,6 @@ header{
 	width: 48%;
 	float: left;
 	margin-bottom: 55px;
-	/*border: 1px solid red;*/
 }
 .ser_single:hover > .ser_logo .ser_circle img{
 	/*filter: opacity(0.5) drop-shadow(0 0 0 black);*/
@@ -267,8 +252,6 @@ header{
 .ser_logo{
 	width: 20%;
 	float: left;
-	/*margin-left: 10px;*/
-	/*border: 1px solid green;*/
 }
 .ser_circle{
 	width: 72px;
@@ -298,7 +281,6 @@ header{
 	width: 73%;
 	float: left;
 	margin-left: 5px;
-	/*border: 1px solid green;*/
 }
 .ser_text h1{
 	font-family: 'Brandon Grotesque Medium';
@@ -323,19 +305,15 @@ header{
 	overflow: hidden;
 	width: 75%;
 	margin: 0 auto;
-	/*border: 1px solid black;*/
 }
 .c_text{
 	width: 39%;
 	margin: 0 auto;
-	/*border: 1px solid red;*/
 }
 .c_text h1{
 	font-family: 'Brandon Grotesque Light';
 	font-weight: 300;
 	font-size: 60px;
-	/*text-align: center;*/
-	/*margin-bottom: 25px;*/
 	display: inline-block;
 }
 .c_text h2{
@@ -343,7 +321,6 @@ header{
 	font-weight: 700;
 	font-size: 60px;
 	text-align: center;
-	/*margin-bottom: 25px;*/
 	display: inline-block;
 }
 .c_text p{
@@ -359,13 +336,11 @@ header{
 	overflow: hidden;
 	width: 100%;
 	margin-bottom: 30px;
-	/*border: 1px solid blue;*/
 }
 
 .c_image{
 	width: 24%;
 	float: left;
-	/*border: 1px solid green;*/
 }
 .c_circle{
 	width: 220px;
@@ -389,23 +364,13 @@ header{
 	position: relative;
 }
 .r_text:after,.r_text:before{
-	content: '';
+	content: "";
 	display: block;
 	position: absolute;
 	top: 66px;
-	/*left: 100%;*/
 	width: 0;
 	height: 0;
 	border-style: solid;
-      /*content: "";
-      position: absolute;
-      right: 100%;
-      top: 26px;
-      width: 0;
-      height: 0;
-      border-top: 13px solid transparent;
-      border-right: 26px solid rgba(0,0,0,0.1);
-      border-bottom: 13px solid transparent;*/
 }
 .r_text:after {
 	left: -40px;
@@ -434,7 +399,6 @@ header{
 .c_image1{
 	width: 24%;
 	float: right;
-	/*border: 1px solid green;*/
 }
 
 .r_text1{
@@ -447,7 +411,7 @@ header{
 	position: relative;
 }
 .r_text1:after,.r_text1:before{
-	content: '';
+	content: "";
 	display: block;
 	position: absolute;
 	top: 66px;
@@ -455,15 +419,6 @@ header{
 	width: 0;
 	height: 0;
 	border-style: solid;
-      /*content: "";
-      position: absolute;
-      right: 100%;
-      top: 26px;
-      width: 0;
-      height: 0;
-      border-top: 13px solid transparent;
-      border-right: 26px solid rgba(0,0,0,0.1);
-      border-bottom: 13px solid transparent;*/
 }
 .r_text1:after {
 	right: -40px;
@@ -498,7 +453,6 @@ header{
 	overflow: hidden;
 	width: 60%;
 	margin: 0 auto;
-	/*border: 1px solid blue;*/
 }
 .wrapper3 ul{}
 .wrapper3 ul li{
@@ -522,12 +476,10 @@ header{
 	padding: 80px 0;
 	width: 60%;
 	margin: 0 auto;
-	/*border: 1px solid white;*/
 }
 .t_head{
 	width: 50%;
 	margin: 0 auto;
-	/*border: 1px solid blue;*/
 }
 .t_head h1{
 	font-family: 'Brandon Grotesque Light';
@@ -557,12 +509,10 @@ header{
 	overflow: hidden;
 	width: 100%;
 	margin-top: 60px;
-	/*border: 1px solid white;*/
 }
 .t_single{
 	width: 30%;
 	float: left;
-	/*border: 1px solid green;*/
 }
 .t_single:nth-child(2){
 	margin-left: 36px;
@@ -600,7 +550,6 @@ header{
 	width: 60%;
 	margin: 0 auto;
 	margin-top: 7px;
-	/*border: 1px solid white;*/
 }
 .t_logo ul{}
 .t_logo ul li{
@@ -639,7 +588,6 @@ header{
 	width: 78%;
 	margin: 0 auto;
 	margin-top: 50px;
-	/*border: 1px solid red;*/
 }
 .t_last p{
 	font-family: 'Brandon Grotesque Regular';
@@ -659,13 +607,11 @@ footer{
 	margin: 0 auto;
 	padding-top: 70px;
 	border-bottom: 1px solid rgba(255,255,255,0.2);
-	/*border: 1px solid white;*/
 }
 .f_single1{
 	overflow: hidden;
 	width: 48%;
 	float: left;
-	/*border: 1px solid green;*/
 }
 .f_single1 h1{
 	font-family: 'Brandon Grotesque Light';
@@ -692,8 +638,6 @@ table{
 
 }
 table,tr,td{
-	/*border: 1px solid lime;*/
-	/*display: inline-block;*/
 	margin-top: 45px;
 	margin-bottom: 30px;
 	font-family: 'Brandon Grotesque Regular';
@@ -723,45 +667,43 @@ tr{
 	float: right;
 	padding-bottom: 36px;
 	margin-bottom: 80px;
-	/*border: 1px solid green;*/
 }
 .namemail{
+	font-family: 'Brandon Grotesque Medium';
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 20px;
+    color: #bbbbbb;
 	display: block;
     width: 100%;
     height: 50px;
     margin-top: 20px;
     margin-bottom: 25px;
     border-radius: 4px;
-    border: 0;
-    font-family: 'Brandon Grotesque Medium';
-    font-weight: 500;
-    font-size: 18px;
-    padding-left: 20px;
-    color: #bbbbbb;
+    border: 0; 
 }
 .message{
-	display: block;
-    width: 100%;
-    height: 50px;
-    border-radius: 4px;
-    border: 0;
-    font-family: 'Brandon Grotesque Medium';
+	font-family: 'Brandon Grotesque Medium';
     font-weight: 500;
     font-size: 18px;
     padding-left: 20px;
     color: #bbbbbb;
     padding-bottom: 85px;
     margin-bottom: 20px;
+	display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    border: 0;
 }
 .f_single2 button{
-	border-radius: 4px;
-    border: 0;
     font-family: 'Brandon Grotesque Medium';
     font-weight: 500;
     font-size: 18px;
     padding: 7px 25px;
-    /*padding-left: 20px;*/
     color: #565454;
+    border-radius: 4px;
+    border: 0;
 }
 .f_single2 button:hover{
 	color: #bbbbbb;
@@ -777,7 +719,6 @@ tr{
 	margin: 0 auto;
 	width: 25%;
 	padding: 25px 0;
-	/*border: 1px solid green;*/
 }
 .f_label p{
 	font-family: 'Brandon Grotesque Medium';
