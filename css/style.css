@@ -249,7 +249,7 @@ header{
 }
 .ser_single{
 	overflow: hidden;
-	width: 46%;
+	width: 48%;
 	float: left;
 	margin-bottom: 55px;
 	/*border: 1px solid red;*/
@@ -262,7 +262,7 @@ header{
 	background-color: #f0f0f0;
 }
 .ser_single:nth-child(even){
-	margin-left: 51px;
+	margin-left: 31px;
 }
 .ser_logo{
 	width: 20%;
